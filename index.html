@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Liberdus Status</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <a
+        href="https://discord.com"
+        class="brand-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://liberdus.com/token/assets/logo.png"
+          alt="Liberdus logo"
+          class="brand-logo"
+        >
+        <div class="brand-text">
+          <div class="brand-title-row">
+            <span class="brand-title-main">Liberdus</span>
+            <span class="brand-title-version">(0.0.10)</span>
+          </div>
+          <div class="brand-subtitle">Service Status</div>
+        </div>
+      </a>
+    </header>
+
+    <div class="status-banner overall-status" id="overall-status-pill">
+      <span id="overall-status-label">All Systems Operational</span>
+    </div>
+
+    <main class="site-main">
+      <section class="section section-uptime">
+        <div class="uptime-header">
+          <div class="uptime-header-left">
+            <h1 class="uptime-title">Service status</h1>
+          </div>
+          <div class="uptime-header-right">
+            <span class="uptime-caption">Uptime over the past 90 days.</span>
+            <a href="#" class="uptime-link">View historical uptime.</a>
+          </div>
+        </div>
+        <div id="service-uptime-list" class="service-uptime-list"></div>
+      </section>
+    </main>
+
+    <div id="uptime-tooltip" class="uptime-tooltip"></div>
+
+    <footer class="site-footer">
+      <div class="footer-left">
+        <span class="footer-brand">Status</span>
+        <span class="footer-divider">•</span>
+        <span>Realtime uptime at a glance</span>
+      </div>
+      <div class="footer-right">
+        <span id="last-updated-label">Last updated: just now</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
