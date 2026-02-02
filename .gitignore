@@ -16,3 +16,12 @@ build/
 
 # Ignore documentation artifacts
 documentation/
+backup/
+
+# Ignore backend service
+backend-server.js
+services.json
+status-history.db
+readme.md
+
+
