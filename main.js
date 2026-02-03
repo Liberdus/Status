@@ -3,7 +3,7 @@ const API_BASE =
   window.LIBERDUS_STATUS_API &&
   typeof window.LIBERDUS_STATUS_API === "string"
     ? window.LIBERDUS_STATUS_API
-    : "http://localhost:7070";
+    : "https://status.liberdus.com";
 
 let CURRENT_NETWORK = "devnet";
 
